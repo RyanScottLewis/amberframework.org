@@ -1,11 +1,12 @@
 @import url('./core.min.css');
 @import url('./thesaas.css');
 @import url("./ocean.css");
-@import url("./style.css");
-@import url("./spinner.css");
 
 $dark-orange: #c76511;
 $main-orange: #e57310;
+
+@import "style";
+@import "spinner";
 
 small {
     color: #535353 !important;
